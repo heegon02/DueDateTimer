@@ -27,6 +27,7 @@ body {
 }
 
 .main {
+    padding : 3vh;
     text-align : center;
     padding-top : 10vh;
 }
