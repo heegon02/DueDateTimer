@@ -14,14 +14,13 @@ body {
 }
 
 .header {
+    padding : 3vh;
     text-align: center;
-    padding : 30px;
 }
 
 .contents {
     background-color: white;
     text-align: center;
-    padding : 20px;
     border-radius: 10px;
     box-shadow : 0 0 10px rgba(0, 0, 0, 0.1);
     display : inline-block;
@@ -29,7 +28,7 @@ body {
 
 .main {
     text-align : center;
-    padding-top : 10%;
+    padding-top : 10vh;
 }
 
 input, button {
@@ -42,10 +41,4 @@ input, button {
     font-size : clamp(40px, 13vw, 160px);
     font-weight: bold;
     color : black;
-}
-
-@media (max-width : 768px) {
-    .container {
-        align-items: stretch;
-    }
 }
