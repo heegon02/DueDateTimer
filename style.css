@@ -43,3 +43,9 @@ input, button {
     font-weight: bold;
     color : black;
 }
+
+@media (max-width : 768px) {
+    .container {
+        align-items: stretch;
+    }
+}
