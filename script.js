@@ -15,15 +15,22 @@ function startTimer() {
         if (timeLeft <= 0) {
             clearInterval(countdown);
             document.getElementById("timer-display").innerHTML = "00  :  00  :  00";
+
             var audio = new Audio("AlertSound.mp3");
             audio.play();
 
             let container = document.querySelector(".container");
             let isRed = false;
-            setInterval(() => {
+
+            let bgInterval = setInterval(()=> {
                 container.style.backgroundColor = isRed ? "white" : "red";
                 isRed = !isRed;
             },500);
+
+            setTimeout(() => {
+                clearInterval(bgInterval);
+                container.style.backgroundColor = "white";
+            }, 10000); 
 
             return;
         }
