@@ -6,6 +6,7 @@
 마감 일자나 시간을 기준으로 자동으로 남은 시간을 계산해서 타이머 형태로 보여주는 Due Date Timer
 - 타이머 종료 시에, alert 알람 소리와 함께 배경색이 전환되는 동작이 됩니다.
 - [작동 영상](https://www.youtube.com/watch?v=ApEcESYl3Mc)
+- [작동 웹페이지](https://duedatetimer02.netlify.app/)
 
 ### ✔ 기존 타이머와의 비교
 
