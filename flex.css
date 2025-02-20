@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width : 100vw;
+    height : 100vh;
+    display: grid;
+    grid-template-rows : 20vh 80vh;
+    grid-template-areas:
+    "header"
+    "main"
+    ;
+}
+
+.header {
+    text-align: center;
+    padding : 30px;
+}
+
+.contents {
+    background-color: white;
+    text-align: center;
+    padding : 20px;
+    border-radius: 10px;
+    box-shadow : 0 0 10px rgba(0, 0, 0, 0.1);
+    display : inline-block;
+}
+
+.main {
+    text-align : center;
+    
+    padding-top : 10%;
+}
+
+input, button {
+    margin : 10px;
+    padding : 10px;
+    font-size : 16px;
+}
+
+#timer-display {
+    font-size : 160px;
+    font-weight: bold;
+    color : black;
+}
